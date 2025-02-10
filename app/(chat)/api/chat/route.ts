@@ -39,7 +39,7 @@ import FirecrawlApp from '@mendable/firecrawl-js';
 
 export const maxDuration = process.env.MAX_DURATION
   ? parseInt(process.env.MAX_DURATION)
-  : 300;
+  : 60;
 
 type AllowedTools =
   | 'requestSuggestions'
